@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do
-    Rack::Response = 200
+    Rack::Respone = 200
   end
 
 end
